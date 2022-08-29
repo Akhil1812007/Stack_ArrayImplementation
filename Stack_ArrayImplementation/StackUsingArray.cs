@@ -36,7 +36,7 @@ namespace Stack_ArrayImplementation
 
         }
 
-        private void DoubleCapacity()
+        private void DoubleCapacity()//
         {
             int[] temp = data;
             data = new int[2*temp.Length];
